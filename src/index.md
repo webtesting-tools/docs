@@ -69,8 +69,13 @@ title: webtesting.tools
 - Sessioncam
 
 ---
+## HTML testing tools
 
-## Css testing tools
+- [HTML validator](https://validator.w3.org/)
+
+---
+
+## CSS testing tools
 ### Functional
 - Assert computed styles
     - [Quixote](https://github.com/jamesshore/quixote/blob/master/README.md)
@@ -100,3 +105,4 @@ title: webtesting.tools
 - [Spotify Engineering](https://engineering.atspotify.com/)
 - [HTML specification](https://html.spec.whatwg.org/)
 - [Life of a pixel](https://www.youtube.com/watch?v=K2QHdgAKP-s)
+- [W3C](https://www.w3.org/)
