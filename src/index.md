@@ -93,3 +93,10 @@ title: webtesting.tools
 - [Writing CSS with Accessibility in Mind](https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939)
 - [Accessibility developer tools](https://github.com/GoogleChrome/accessibility-developer-tools)
 - [Color Contrast Analyser for Sketch](https://github.com/getflourish/Sketch-Color-Contrast-Analyser)
+
+---
+## Useful links
+- [Gov.uk frontend repository](https://github.com/alphagov/govuk-frontend)
+- [Spotify Engineering](https://engineering.atspotify.com/)
+- [HTML specification](https://html.spec.whatwg.org/)
+- [Life of a pixel](https://www.youtube.com/watch?v=K2QHdgAKP-s)
