@@ -12,6 +12,7 @@ body {
 .logo {
     border-radius: 50%;
     width: 70px;
+    align-self: center;
 }
 
 nav a {
@@ -41,9 +42,14 @@ header {
       background-color: white;
     }
 
+    header a {
+        align-self: center;
+    }
+
     nav {
         padding: 20px;
         display: flex;
+        align-items: center;
     }
 
     nav a {
