@@ -42,6 +42,25 @@ title: Site map
 
 ### Security
 - OWASP
+- Snyk
 
 ### Contract
 - Pact
+
+### Static analysis
+- Sonar
+- Eslint
+- Resharper
+- Checkmarx
+
+### Monitoring
+- Grafana
+- Eggplant
+- Pagerduty
+- Prometheus
+- Cloudwatch
+- Splunk
+- Datadog
+- Sentry
+- Glassbox
+- Sessioncam
