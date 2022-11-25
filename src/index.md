@@ -67,3 +67,29 @@ title: webtesting.tools
 - Sentry
 - Glassbox
 - Sessioncam
+
+---
+
+## Css testing tools
+### Functional
+- Assert computed styles
+    - [Quixote](https://github.com/jamesshore/quixote/blob/master/README.md)
+- Screenshot comparisson
+    - [Wraith](https://github.com/bbc/wraith)
+    - Cypress, wdio or playwright + [Applitools](https://applitools.com/)
+    - Cypress, wdio or playwright + [Percy.io](https://percy.io/)
+    - Cypress + [Happo](https://happo.io/)
+    - wdio + [Saucelabs visual testing](https://saucelabs.com/platform/visual-testing)
+    - [Playwright visual testing](https://playwright.dev/docs/test-snapshots)
+    - [CSS critic](https://github.com/cburgmer/csscritic)
+
+### Performance
+- [Stress-css](https://github.com/andyedinborough/stress-css)
+
+### Security
+- [OWASP Securing Cascading Style Sheets Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Securing_Cascading_Style_Sheets_Cheat_Sheet.html)
+
+### Accessibility
+- [Writing CSS with Accessibility in Mind](https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939)
+- [Accessibility developer tools](https://github.com/GoogleChrome/accessibility-developer-tools)
+- [Color Contrast Analyser for Sketch](https://github.com/getflourish/Sketch-Color-Contrast-Analyser)
