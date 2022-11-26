@@ -1,11 +1,15 @@
 ---
 layout: layouts/base.html
 title: webtesting.tools
+description: List of web testing tools
 ---
 
 # Welcome to webtesting.tools  
 
 ---
+
+<h1 class="section-header">Frontend</h1>
+
 ## HTML testing tools
 
 - [HTML validator](https://validator.w3.org/)
@@ -37,6 +41,27 @@ title: webtesting.tools
 - [Color Contrast Analyser for Sketch](https://github.com/getflourish/Sketch-Color-Contrast-Analyser)
 
 ---
+<h1 class="section-header">Backend</h1>
+
+## API
+### Functional
+- [Postman](https://www.postman.com/)
+- [Insomnia](https://insomnia.rest/)
+
+### Contract
+- [Pact](https://pact.io/)
+
+### Load
+- K6s
+- Locust
+
+### Documentation 
+- [Swagger](https://swagger.io/)
+
+---
+
+<h1 class="section-header">Other</h1>
+
 ## Useful links
 - [Gov.uk frontend repository](https://github.com/alphagov/govuk-frontend)
 - [Spotify Engineering](https://engineering.atspotify.com/)
@@ -101,22 +126,7 @@ title: webtesting.tools
 - Sessioncam
 
 ---
-## API
-### Functional
-- [Postman](https://www.postman.com/)
-- [Insomnia](https://insomnia.rest/)
 
-### Contract
-- [Pact](https://pact.io/)
-
-### Load
-- K6s
-- Locust
-
-### Documentation 
-- [Swagger](https://swagger.io/)
-
----
 
 ## IDE
 - Webstorm

@@ -1,6 +1,7 @@
 ---
 layout: layouts/base.html
 title: Contribution
+description: Contribution to webtesting.tools
 ---
 
 <h1>Contribution</h1>
