@@ -71,23 +71,16 @@ title: webtesting.tools
 - Playwright
 - Webdriver.io
 
-### Load
-- K6s
-- Locust
-
 ### Cloud browser providers
 - saucelabs
 - browserstack
 
 ### Mocking
-- Tweak
+- [Tweak](https://chrome.google.com/webstore/detail/tweak-mock-and-modify-htt/feahianecghpnipmhphmfgmpdodhcapi)
 
 ### Security
 - OWASP
 - Snyk
-
-### Contract
-- Pact
 
 ### Static analysis
 - Sonar
@@ -107,3 +100,18 @@ title: webtesting.tools
 - Glassbox
 - Sessioncam
 
+---
+## API
+### Functional
+- [Postman](https://www.postman.com/)
+- [Insomnia](https://insomnia.rest/)
+
+### Contract
+- [Pact](https://pact.io/)
+
+### Load
+- K6s
+- Locust
+
+### Documentation 
+- [Swagger](https://swagger.io/)
