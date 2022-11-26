@@ -5,10 +5,9 @@ description: List of web testing tools
 ---
 
 # Welcome to webtesting.tools  
-
 ---
 
-<h1 class="section-header">Frontend</h1>
+<h1 class="section-header" id="frontend">Frontend</h1>
 
 ## HTML testing tools
 
@@ -41,7 +40,7 @@ description: List of web testing tools
 - [Color Contrast Analyser for Sketch](https://github.com/getflourish/Sketch-Color-Contrast-Analyser)
 
 ---
-<h1 class="section-header">Backend</h1>
+<h1 class="section-header" id="backend">Backend</h1>
 
 ## API
 ### Functional
@@ -60,7 +59,7 @@ description: List of web testing tools
 
 ---
 
-<h1 class="section-header">Other</h1>
+<h1 class="section-header" id="other">Other</h1>
 
 ## Useful links
 - [Gov.uk frontend repository](https://github.com/alphagov/govuk-frontend)
@@ -68,7 +67,9 @@ description: List of web testing tools
 - [HTML specification](https://html.spec.whatwg.org/)
 - [Life of a pixel](https://www.youtube.com/watch?v=K2QHdgAKP-s)
 - [W3C](https://www.w3.org/)
-
+- [Devtools protocol documentation](https://chromedevtools.github.io/devtools-protocol/)
+- [Chrome WebDriver Status](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/chromedriver_status.md)
+- [W3C WebDriver specification](https://w3c.github.io/webdriver/)
 ---
 
 ## Preventing, best practises

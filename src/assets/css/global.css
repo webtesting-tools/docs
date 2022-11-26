@@ -40,7 +40,7 @@ header {
     padding: 10px;
 }
 
-p, ul, ol, li {
+p, ul, ol, li, nav a {
     line-height: 2.5
 }
 
