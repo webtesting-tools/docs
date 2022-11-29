@@ -46,6 +46,7 @@ description: List of web testing tools
 ### Functional
 - [Postman](https://www.postman.com/)
 - [Insomnia](https://insomnia.rest/)
+- [REST-assured](https://rest-assured.io/)
 
 ### Contract
 - [Pact](https://pact.io/)
@@ -81,7 +82,6 @@ description: List of web testing tools
 
 ### Accessibility checklists
 - [Deque](https://dequeuniversity.com/checklists/)
-
 
 ---
 ## Detecting, asserting, using
@@ -126,6 +126,7 @@ description: List of web testing tools
 - Sentry
 - Glassbox
 - Sessioncam
+- [Web Vitals](https://github.com/GoogleChrome/web-vitals/)
 
 ---
 ### Approaches
@@ -140,3 +141,12 @@ description: List of web testing tools
 - Webstorm
 - Visual Studio Code
 - [Aqua](https://www.jetbrains.com/aqua/)
+
+---
+## Component libraries and their testing tools 
+- [Storybook](https://storybook.js.org/)
+    - [Chromatic](https://www.chromatic.com/)
+- [Bit](https://bit.dev/)
+
+## Web Components
+- [Open Web Components](https://open-wc.org/docs/testing/testing-package/)
