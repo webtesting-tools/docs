@@ -91,6 +91,7 @@ description: List of web testing tools
 - JAWS
 - Lighthouse
 - Axe
+- [Pa11y](https://pa11y.org/)
 
 ### Crossbrowser testing
 - Selenium
