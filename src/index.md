@@ -51,8 +51,8 @@ description: List of web testing tools
 - [Pact](https://pact.io/)
 
 ### Load
-- K6s
-- Locust
+- [K6](https://k6.io/)
+- [Locust](https://locust.io/)
 
 ### Documentation 
 - [Swagger](https://swagger.io/)
@@ -128,7 +128,13 @@ description: List of web testing tools
 - Sessioncam
 
 ---
-
+### Approaches
+- BDD
+    - [Cucumber](https://cucumber.io/)
+    - [Specflow](https://specflow.org/)
+- KDT
+    - [Robot Framework](https://robotframework.org/)
+---
 
 ## IDE
 - Webstorm
