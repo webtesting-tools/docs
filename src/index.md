@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.html
-title: webtesting.tools
+title: Web testing tools
 description: List of web testing tools
 ---
 
