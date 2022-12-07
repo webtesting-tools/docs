@@ -150,3 +150,13 @@ description: List of web testing tools
 
 ## Web Components
 - [Open Web Components](https://open-wc.org/docs/testing/testing-package/)
+
+## Deployments and versioning
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- Continuous integration and delivery tools
+    - Gitlab CI
+    - Github Actions
+    - Jenkins
+    - Teamcity
+    - Gocd
+    - Azure DevOps
