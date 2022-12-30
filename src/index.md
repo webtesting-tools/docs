@@ -12,7 +12,7 @@ description: List of web testing tools
 ## HTML testing tools
 
 - [HTML validator](https://validator.w3.org/)
-
+- [Accessibility Developer Guide](https://www.accessibility-developer-guide.com/)
 ---
 
 ## CSS testing tools
