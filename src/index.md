@@ -12,7 +12,7 @@ description: List of web testing tools
 ## HTML testing tools
 
 - [HTML validator](https://validator.w3.org/)
-- [Accessibility Developer Guide](https://www.accessibility-developer-guide.com/)
+
 ---
 
 ## CSS testing tools
@@ -82,6 +82,8 @@ description: List of web testing tools
 
 ### Accessibility checklists
 - [Deque](https://dequeuniversity.com/checklists/)
+- [Accessibility Law](https://accessibility-manual.dwp.gov.uk/accessibility-law)
+- [Accessibility Developer Guide](https://www.accessibility-developer-guide.com/)
 
 ---
 ## Detecting, asserting, using
