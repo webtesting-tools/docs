@@ -38,6 +38,7 @@ description: List of web testing tools
 - [Writing CSS with Accessibility in Mind](https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939)
 - [Accessibility developer tools](https://github.com/GoogleChrome/accessibility-developer-tools)
 - [Color Contrast Analyser for Sketch](https://github.com/getflourish/Sketch-Color-Contrast-Analyser)
+- [HTML test cases](https://russmaxdesign.github.io/accessible-forms/index.html)
 
 ---
 <h1 class="section-header" id="backend">Backend</h1>
