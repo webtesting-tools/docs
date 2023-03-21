@@ -43,6 +43,13 @@ description: List of web testing tools
 - [ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/)
 - [Deque University ARIA Examples](https://dequeuniversity.com/library/)
 
+### Best practises
+- [Maintainable CSS](https://maintainablecss.com/)
+- [CUBE CSS](https://cube.fyi/)
+- [BEM](https://getbem.com/)
+- [Sass](https://sass-lang.com/)
+- [Progressive Enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement)
+
 ---
 <h1 class="section-header" id="backend">Backend</h1>
 
@@ -58,6 +65,7 @@ description: List of web testing tools
 ### Load
 - [K6](https://k6.io/)
 - [Locust](https://locust.io/)
+- [Jmeter](https://jmeter.apache.org/)
 
 ### Documentation 
 - [Swagger](https://swagger.io/)
@@ -144,6 +152,7 @@ description: List of web testing tools
     - [Specflow](https://specflow.org/)
 - KDT
     - [Robot Framework](https://robotframework.org/)
+- [Testing library](https://testing-library.com/)
 ---
 
 ## IDE
@@ -157,15 +166,25 @@ description: List of web testing tools
     - [Chromatic](https://www.chromatic.com/)
 - [Bit](https://bit.dev/)
 
+### Docs generators
+- [Eleventy](https://www.11ty.dev/)
+
 ## Web Components
 - [Open Web Components](https://open-wc.org/docs/testing/testing-package/)
 
 ## Deployments and versioning
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 - Continuous integration and delivery tools
-    - Gitlab CI
+    - [Gitlab CI](https://docs.gitlab.com/ee/ci/)
     - Github Actions
     - Jenkins
     - Teamcity
     - Gocd
     - Azure DevOps
+
+## Valuable certifications
+- [ISTQB](https://www.istqb.org/)
+- [WAS](https://www.accessibilityassociation.org/s/wascertification)
+
+### Preparation
+- [WAS preparation](https://dequeuniversity.com/curriculum/packages/iaap-certification-prep)
