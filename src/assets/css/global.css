@@ -1,9 +1,5 @@
 @import url('./reset.css');
 
-h1,
-h2 {
-    color: black;
-}
 
 body {
     display: flex;
@@ -17,24 +13,20 @@ body {
 
 nav a {
     display: block;
-    color: black;
 }
 
 main {
-    padding: 0 20px;
     padding-left: 150px;
+    min-width: 70%;
 }
 
 header {
-    padding: 0 20px;
     display: block;
     top: 0;
     width: fit-content;
 }
 
 .section-header {
-    background-color: black;
-    color: white;
     margin-bottom: 20px;
     border-radius: 5%;
     padding: 10px;
@@ -68,7 +60,7 @@ p, ul, ol, li, nav a {
     }
 
     main {
-        padding-left: 20px;
+        padding-left: 0;
     }
 }
 
