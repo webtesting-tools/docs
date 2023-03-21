@@ -108,6 +108,7 @@ description: List of web testing tools
 - JAWS
 - Lighthouse
 - Axe
+- [Code sniffer](https://squizlabs.github.io/HTML_CodeSniffer/)
 - [Pa11y](https://pa11y.org/)
 
 ### Crossbrowser testing
