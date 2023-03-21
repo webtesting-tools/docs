@@ -4,10 +4,8 @@ title: Web testing tools
 description: List of web testing tools
 ---
 
-# Welcome to webtesting.tools  
----
-
-<h1 class="section-header" id="frontend">Frontend</h1>
+<details open>
+    <summary>Frontend</summary>
 
 ## HTML testing tools
 
@@ -49,9 +47,10 @@ description: List of web testing tools
 - [BEM](https://getbem.com/)
 - [Sass](https://sass-lang.com/)
 - [Progressive Enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement)
+</details>
 
----
-<h1 class="section-header" id="backend">Backend</h1>
+<details open>
+    <summary>Backend</summary>
 
 ## API
 ### Functional
@@ -70,9 +69,10 @@ description: List of web testing tools
 ### Documentation 
 - [Swagger](https://swagger.io/)
 
----
+</details>
 
-<h1 class="section-header" id="other">Other</h1>
+<details open>
+    <summary>Other</summary>
 
 ## Useful links
 - [Gov.uk frontend repository](https://github.com/alphagov/govuk-frontend)
@@ -189,3 +189,4 @@ description: List of web testing tools
 
 ### Preparation
 - [WAS preparation](https://dequeuniversity.com/curriculum/packages/iaap-certification-prep)
+</details>

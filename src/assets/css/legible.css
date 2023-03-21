@@ -1,0 +1,283 @@
+:root {
+    color-scheme: light dark;
+    --text: CanvasText;
+    --background: Canvas;
+    --color-primary: mediumpurple;
+    --heading-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",sans-serif;
+    --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",sans-serif;
+    --border-thickness: 3px;
+    
+    --step-0: clamp(1.25rem, calc(1.21rem + 0.22vw), 1.38rem);
+    --step-1: clamp(1.50rem, calc(1.42rem + 0.38vw), 1.72rem);
+    --step-2: clamp(1.80rem, calc(1.68rem + 0.61vw), 2.15rem);
+    --step-3: clamp(2.16rem, calc(1.98rem + 0.91vw), 2.69rem);
+    --step-4: clamp(2.59rem, calc(2.33rem + 1.33vw), 3.36rem);
+    --step-5: clamp(3.11rem, calc(2.73rem + 1.89vw), 4.20rem);
+  }
+  
+  /* Box sizing rules */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  /* Remove default margin */
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  figure,
+  blockquote,
+  dl,
+  dd {
+    margin: 0;
+  }
+  
+  /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+  ul[role="list"],
+  ol[role="list"] {
+    list-style: none;
+  }
+  
+  /* Set core root defaults */
+  html:focus-within {
+    scroll-behavior: smooth;
+  }
+  
+  /* Set core body defaults */
+  body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    font-family: var(--heading-font-family);
+  }
+  
+  /* A elements that don't have a class get default styles */
+  a:not([class]) {
+    text-decoration-skip-ink: auto;
+  }
+  
+  /* Make images easier to work with */
+  img,
+  picture {
+    max-width: 100%;
+    display: block;
+  }
+  
+  /* Inherit fonts for inputs and buttons */
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+  }
+  
+  :focus {
+    outline-offset: 0.3ex;
+    outline-width: 0.4ex;
+    outline-style: dashed;
+    outline-color: var(--text);
+  }
+  
+  body {
+    background: var(--background);
+    color: var(--text);
+    padding: var(--step-2, 2em);
+    font-family: var(--font-family);
+    font-size: var(--step-0);
+    line-height: 1.7;
+    accent-color: var(--color-primary);
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--heading-font-family);
+    font-weight: 800;
+    line-height: 1.2;
+    text-wrap: balance;
+  }
+  
+  h1 {
+    font-size: var(--step-4);
+  }
+  
+  h2 {
+    font-size: var(--step-3);
+  }
+  
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: var(--step-2);
+  }
+  
+  ul,
+  ol {
+    padding-inline-start: 1em;
+  }
+  
+  blockquote {
+    padding-inline-start: 1em;
+    border-inline-start: 0.3em solid;
+    font-style: italic;
+    font-size: var(--step-1);
+  }
+  
+  :is(h1, h2, h3, h4, h5, h6, blockquote) {
+    --flow-space: 1.5em;
+  }
+  
+  :is(h1, h2, h3, h4, h5, h6) + * {
+    --flow-space: 0.5em;
+  }
+  
+  article {
+    max-width: 65ch;
+    margin-inline: auto;
+  }
+  
+  article > * + * {
+    margin-block-start: var(--flow-space, 1em);
+  }
+  
+  blockquote {
+    max-width: 50ch;
+  }
+  
+  h1 {
+    max-width: 20ch;
+  }
+  
+  h2,
+  h3 {
+    max-width: 28ch;
+  }
+  
+  a {
+    color: currentColor;
+    text-decoration-color: var(--color-primary);
+    text-decoration-thickness: 0.3ex;
+    text-underline-offset: 0.3ex;
+  }
+  
+  img {
+    display: block;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    background-color: #777;
+    border: var(--border-thickness) solid var(--text);
+  }
+  
+  time {
+    font-family: var(--heading-font-family);
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+  
+  button {
+    background: var(--color-primary);
+    color: white;
+    font-weight: 700;
+    font-size: 1.3rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  pre {
+    line-height: 1.6;
+    max-width: 100%;
+    overflow: auto;
+    padding: 0.5rem;
+    border: var(--border-thickness) solid var(--text);
+  }
+  
+  kbd {
+    display: inline-block;
+    border: var(--border-thickness) solid var(--text);
+    padding: 0.1em 0.2em;
+    background-color: var(--background);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    border-bottom: var(--border-thickness) solid var(--text);
+  }
+  
+  td, th {
+    padding: 0.5rem;
+    text-align: left;
+  }
+  
+  hr {
+    border-top: var(--border-thickness) solid var(--text);
+    border-bottom: 0;
+  }
+  
+  form > * {
+    display: block;
+  }
+  
+  form > * + * {
+    margin-top: var(--flow-space, 1em);
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"],
+  input[type="date"],
+  input[type="search"],
+  input[type="time"],
+  input[type="url"],
+  input[type="week"],
+  textarea {
+    font-size: 1.3rem;
+    padding: 0.5em;
+    max-width: 100%;
+    border: var(--border-thickness) solid var(--text);
+  }
+  
+  .intro {
+    font-size: var(--step-1);
+    font-style: italic;
+    max-width: 50ch;
+    text-wrap: balance;
+  }
+  
+  .intro + * {
+    --flow-space: 2em;
+  }
+  
+  /* Remove all animations and transitions for people that prefer not to see them */
+  @media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+     scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }

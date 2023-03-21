@@ -2,7 +2,7 @@
 
 h1,
 h2 {
-    color: blue;
+    color: black;
 }
 
 body {
@@ -17,23 +17,23 @@ body {
 
 nav a {
     display: block;
-    color: blue;
+    color: black;
 }
 
 main {
-    padding: 20px;
+    padding: 0 20px;
     padding-left: 150px;
 }
 
 header {
-    padding: 20px;
-    position: fixed;
+    padding: 0 20px;
+    display: block;
     top: 0;
     width: fit-content;
 }
 
 .section-header {
-    background-color: blue;
+    background-color: black;
     color: white;
     margin-bottom: 20px;
     border-radius: 5%;
@@ -47,11 +47,6 @@ p, ul, ol, li, nav a {
 @media only screen and (max-width: 600px) {
     header {
         display: flex;
-        padding-bottom: 0;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        background-color: white;
     }
 
     header a {
@@ -73,7 +68,29 @@ p, ul, ol, li, nav a {
     }
 
     main {
-        padding-top: 120px;
         padding-left: 20px;
     }
+}
+
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+    min-width: 30vw;
+    margin: 10px 0 10px 0px;
+}
+
+summary {
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+}
+
+details[open] {
+    padding: 0.5em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
 }
