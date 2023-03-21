@@ -39,6 +39,9 @@ description: List of web testing tools
 - [Accessibility developer tools](https://github.com/GoogleChrome/accessibility-developer-tools)
 - [Color Contrast Analyser for Sketch](https://github.com/getflourish/Sketch-Color-Contrast-Analyser)
 - [HTML test cases](https://russmaxdesign.github.io/accessible-forms/index.html)
+- [HTML Semantics and Accessibility Cheat Sheet](https://webaim.org/resources/htmlcheatsheet/)
+- [ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/)
+- [Deque University ARIA Examples](https://dequeuniversity.com/library/)
 
 ---
 <h1 class="section-header" id="backend">Backend</h1>
