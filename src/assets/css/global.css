@@ -65,7 +65,7 @@ p, ul, ol, li, nav a {
 }
 
 details {
-    border: 1px solid #aaa;
+    border: 0px solid #aaa;
     border-radius: 4px;
     padding: 0.5em 0.5em 0;
     min-width: 30vw;
@@ -74,8 +74,8 @@ details {
 
 summary {
     font-weight: bold;
-    margin: -0.5em -0.5em 0;
-    padding: 0.5em;
+
+
 }
 
 details[open] {

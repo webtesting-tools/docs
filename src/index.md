@@ -11,8 +11,6 @@ description: List of web testing tools
 
 - [HTML validator](https://validator.w3.org/)
 
----
-
 ## CSS testing tools
 ### Functional
 - Assert computed styles
@@ -83,7 +81,6 @@ description: List of web testing tools
 - [Devtools protocol documentation](https://chromedevtools.github.io/devtools-protocol/)
 - [Chrome WebDriver Status](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/chromedriver_status.md)
 - [W3C WebDriver specification](https://w3c.github.io/webdriver/)
----
 
 ## Preventing, best practises
 
@@ -100,7 +97,6 @@ description: List of web testing tools
 - [Accessibility Law](https://accessibility-manual.dwp.gov.uk/accessibility-law)
 - [Accessibility Developer Guide](https://www.accessibility-developer-guide.com/)
 
----
 ## Detecting, asserting, using
 ### Accessibility tools
 - Voice over (Mac)
@@ -146,7 +142,6 @@ description: List of web testing tools
 - Sessioncam
 - [Web Vitals](https://github.com/GoogleChrome/web-vitals/)
 
----
 ### Approaches
 - BDD
     - [Cucumber](https://cucumber.io/)
@@ -154,14 +149,12 @@ description: List of web testing tools
 - KDT
     - [Robot Framework](https://robotframework.org/)
 - [Testing library](https://testing-library.com/)
----
 
 ## IDE
 - Webstorm
 - Visual Studio Code
 - [Aqua](https://www.jetbrains.com/aqua/)
 
----
 ## Component libraries and their testing tools 
 - [Storybook](https://storybook.js.org/)
     - [Chromatic](https://www.chromatic.com/)
