@@ -9,10 +9,10 @@ description: Reasons why you need to build testing system, not tests
 <details open>
 <summary>TLDR</summary>
 
-- **Requirements are everything.**  
-- A testing system **sets requirements** to your software and a way to **measure how requirements are met**  
-- Requirements can be **not only functional**. ChatGPT gives you a lot of examples&ast;
-- **Fine tuning requirements and measurement solutions** is your way to create a **decent software**
+- **Requirements are key to everything.**
+- A testing system **establishes the requirements** for your software and provides a means to **measure how those requirements are met**.
+- Requirements are **not limited** to just **functionality**; ChatGPT provides many examples&ast;.
+- Fine-tuning requirements and measurement solutions is crucial for developing quality software.
 
 &ast;Performance, Scalability, Availability, Reliability, Maintainability, Security, Usability, Compatibility, Portability, Compliance, Resilience, Interoperability, Supportability, Extensibility, Testability, Accessibility, Internationalization, Localization, Configurability, Auditability, Capacity, Throughput, Response time, Latency, Capacity planning, Recoverability, Backup and restore, Disaster recovery, Redundancy, Fault tolerance, Consistency, Data integrity, Privacy, Confidentiality, Non-repudiation, Traceability, Monitoring, Reporting, Analytics, Logging, Integration, Deployment, Versioning, Upgradability, Customizability, Flexibility, Adaptability, Performance tuning, Code quality, Error handling, Compliance with standards and regulations, Documentation, Training, User feedback, User experience, User satisfaction.
 
@@ -21,22 +21,21 @@ description: Reasons why you need to build testing system, not tests
 
 ----
 ## Story
-Let's imagine you are building a startup. This story is not real, but can happen in real life.
+Imagine you're launching a startup. While the following story is fictional, it could easily happen in real life.
 
 ### DAY 1
-You have a vision. You want to make our world a happier place. 
-Your idea is to make a website, where users can see word "Hello". Your hypothesys is that when people will see word "Hello", they will feel welcomed, which will improve their wellbeing.
+You have a vision: to make the world a happier place. Your idea is to create a website where users can see the word "Hello." Your hypothesis is that when people see the word "Hello," they will feel welcomed, which will improve their well-being.
 
 <details>
 <summary>Testing system</summary>
 
 | Requirements| Measurement |
 | ----------- | ----------- |
-| People can see world "Hello" on the page|I see it|
+| Users can view the word 'Hello' on the webpage.|I see it|
 
 </details>
 
-You build a quick prototype
+You built a quick prototype
 
 ```html
 <html>
@@ -51,19 +50,19 @@ You build a quick prototype
 ```
 
 ### DAY 2
-You expect your website to be used by wide audience, you want to make people sure people with disabilities also can use your website, so that you can make them happy as well. You decided to try to think what can stop people with disabilities from using my website. 
+You anticipate that your website will have a broad audience, and you want to ensure that people with disabilities can also use it, so that you can make them happy too. You've decided to consider what might prevent people with disabilities from using your website.
 
 <details>
 <summary>Testing system</summary>
 
 | Requirements| Measurement |
 | ----------- | ----------- |
-| People can see word "Hello" on the page|I see it|
-| People with disabilities can experience word "Hello" on my website| I looked at the page, from my knowleadge it should be ok|
+| Users can view the word 'Hello' on the webpage.|I see it|
+| Users with disabilities can view the word 'Hello' on my website. | After reviewing the page, I believe it meets accessibility requirements.| 
 
 </details>
 
-As a result, I found that silver color on white background can hardly be visible by users with pure eyesight, and I decided to change it to default color
+After conducting some research, I found that the silver color on a white background can be difficult for users with poor eyesight to distinguish. Therefore, I've decided to change it to the default color.
 
 ```html
 <html>
@@ -78,18 +77,16 @@ As a result, I found that silver color on white background can hardly be visible
 ```
 
 ### DAY 3
-I want my website to be accesible by anyone in the world, so I decided to publish my website. 
-I bought a domain name and selected a cloud provider, which I think works well and have a reasonable price. 
-I deployed my website and it works well, I can see the website up and running, accessible via my new domain name
+I want my website to be accessible to anyone in the world, so I've decided to publish it. I purchased a domain name and selected a cloud provider that I believe offers good performance at a reasonable price. After deploying my website, I confirmed that it's up and running and accessible through my new domain name.
 
 <details>
 <summary>Testing system</summary>
 
 | Requirements| Measurement |
 | ----------- | ----------- |
-| People can see word "Hello" on the page|I see it|
-| People with disabilities can experience word "Hello" on my website| I looked at the page, from my knowleadge it should be ok|
-| my website accesible by anyone in the world| I deployed it and tried myself, looks fine|
+| Users can view the word 'Hello' on the webpage.|I see it|
+| Users with disabilities can view the word 'Hello' on my website. | After reviewing the page, I believe it meets accessibility requirements.| 
+| I aimed to make my website accessible to anyone in the world. | After deploying it, I tested the website myself and it appears to be working properly.| 
 
 </details>
 
@@ -97,310 +94,217 @@ I deployed my website and it works well, I can see the website up and running, a
 Everything is ready, I want to show my shiny website to people. I briefly googled and selected a couple of forums about wellbeing and wrote a message there, saying "Hello. I know ther is a problem about being welcomed. I have a solution. Can you please have a look and give me some feedback if it helps or not. My-shiny-website.in". I also decided to try contextual ads and bought google adwords for a couple of hundreds visits to my website. I used keywords, like wellbeing, feel welcomed
 
 ### DAY 10
-I had a couple of comments on forums, they were
-- Nice
-- Site is funny, but I don't really get the idea how it should help
-- Can't open your website
-- Takes a lot of time to load
-- `****** ** ****`
-- What should be there?
+I received several comments on the forums:
 
-I also saw there were 450 people from google adwords. 
-I decided to stop google adword compaign, review feedback and think what I have at the moment
-- I invited 450 people from google adwords. Did I help anyone? I have no feedback
-- How many people came from forums
-- There were a person who can't open my website. What does he mean? I reached out to him and he said he coudn't open it, but now seems fine
-- One person said it takes a lot of time to load. 
-- There were 2 people who didn't get my idea
-- One person can't see anything or didn't get the idea
+- One person said "Nice"
+- Another person found the site funny, but didn't quite understand how it was supposed to help
+- Someone reported that they couldn't open my website
+- One person mentioned that it took a long time to load
+- I also received an inappropriate comment, which I won't repeat here
+- Someone asked "What should be there?"
+ 
+I also noticed that 450 people visited my website through the Google AdWords campaign. However, I received no feedback from them. After reviewing the feedback, I decided to stop the Google AdWords campaign and assess the situation:
 
-As a result, I decided to do a few more improvements to website
+- How many people came from the forums?
+- I reached out to the person who couldn't open my website and they said it's working fine now
+- One person reported that the site took a long time to load
+- Two people didn't understand my idea
+- One person either couldn't see anything or didn't understand the idea
+- As a result, I decided to make a few more improvements to the website."
 
 <details>
 <summary>Testing system</summary>
 
 | Requirements| Measurement |
 | ----------- | ----------- |
-| People can see word "Hello" on the page|I see it|
-| People with disabilities can experience word "Hello" on my website| I looked at the page, from my knowleadge it should be ok|
-| My website accesible by anyone in the world| I deployed it and tried myself, looks fine|
-| I need to have feedback from users, how it helps them to feel more welcomed| they give me feedback and I recieve it|
-| I want to know how many people comes to my site every day| I see the number|
-| I need to know how long it takes for a user to load my website| I see a number|
-| I need to know how many user can't load my website| I see number| 
+| Users can view the word 'Hello' on the webpage.|I see it|
+| Users with disabilities can view the word 'Hello' on my website. | After reviewing the page, I believe it meets accessibility requirements.| 
+| I aimed to make my website accessible to anyone in the world. | After deploying it, I tested the website myself and it appears to be working properly.| 
+| I need to receive feedback from users on how my website helps them feel more welcomed.| - |
+| I also want to track the number of daily visitors to my site.| - |
+| It's important for me to know the website loading time for users and to track the number of users who can't load my website.| - |
+
 
 </details>
 
 ### DAY 11
-I took a few hours to explore internet and decided to go with the following solution. I will have google analytics, which will tell how many users were on my site. I create a form in google forms, where I will ask about feedback and add it as iframe to the page. 
+After spending a few hours researching on the internet, I decided to go with the following solution. I will use Google Analytics to track the number of users who visit my site. I also created a feedback form using Google Forms and added it as an iframe to the page.
 
 <details>
 <summary>Testing system</summary>
 
 | Requirements| Measurement |
 | ----------- | ----------- |
-| People can see word "Hello" on the page|I see it|
-| People with disabilities can experience word "Hello" on my website| I looked at the page, from my knowleadge it should be ok|
-| My website accesible by anyone in the world| I deployed it and tried myself, looks fine|
-| I need to have feedback from users, how it helps them to feel more welcomed| they give me feedback and I recieve it|
-| I want to know how many people comes to my site every day| I see the number|
-| I need to know how long it takes for a user to load my website| I see a number|
-| I need to know how many user can't load my website| I see number| 
-| Google analytics works on my page| I can see results in google analytics|
-| I have google form on my website and can send feedback| I see feedback in google forms|
+| Users can view the word 'Hello' on the webpage.|I see it|
+| Users with disabilities can view the word 'Hello' on my website. | After reviewing the page, I believe it meets accessibility requirements.| 
+| I aimed to make my website accessible to anyone in the world. | After deploying it, I tested the website myself and it appears to be working properly.| 
+| I need to receive feedback from users on how my website helps them feel more welcomed.| Google Forms |
+| I also want to track the number of daily visitors to my site.| Google Analytics |
+| It's important for me to know the website loading time for users and to track the number of users who can't load my website.| Google Analytics |
 
 </details>
 
 ### DAY 12
-I need to think about questions what I need to ask. I took another search of the internet and found a good example of questions. I decided to rephrase the problem I'm trying to solve, asking about good and bad mood. So here they are
-```
-- What is the hardest part about being in a good mood?
-- When were the last time you faced with a bad mood?
-- Why is it hard to be in good mood?
-- What is, if anything, have you done to be in good mood?
-- What don't you like about the solution for a good mood that you have?
-```
+I need to consider the questions that I should ask to gather useful feedback. After doing some research on the internet, I found a good set of example questions. I decided to rephrase the problem I'm trying to solve, focusing on how my website can affect users' mood, whether positively or negatively. Here are the questions I came up with: 
 
-I wrote those questions and try out it myself in google forms to make sure it works.
-After, I made one more post on the forums, asking people about their opinion about being in good mood and turned on google google adwords with new keywords. 
+- What is the hardest part about being in a good mood?
+- When was the last time you experienced a bad mood?
+- Why is it difficult to maintain a good mood?
+- What is, if anything, have you done to be in good mood?
+- What are the drawbacks of your current methods for improving your mood?
+
+I crafted those questions and tested them out on myself using Google Forms to ensure they work properly. Next, I made another post on the forums, seeking people's opinions on maintaining a good mood, and I also activated a new Google Adwords campaign with fresh keywords.
 
 ### DAY 18
-I had 1300 visitors to my website and 12 replies in google forms. 
-To sum up, main ideas there were the following
-```
+To summarize, the main ideas that emerged from the 1300 visitors to my website and 12 replies in the Google form were as follows:
+
 - What is the hardest part about being in a good mood?
-A: Stay calm when environment around you is not friendly and welcomed
-A: Stay in a good mood after a fight
-A: Stay in good mood when remember about bad things
-- When were the last time you faced with a bad mood?
-A: today, when I was in a traffic jam
-A: last week, I remembered my loved ones who passed away
-A: When I went to bed last night
-- Why is it hard to be in good mood?
-A: I feel tired after being in bad mood
-A: I can't stop thinking, which doesn't let me sleep
-A: I become angry and don't want to speak with anyone, which makes my mood even worse
+    - Staying calm when the environment around you is unwelcoming or hostile.
+    - Maintaining a positive mood after an argument or disagreement.
+    - Keeping a positive mindset despite unpleasant memories or thoughts.
+- When was the last time you experienced a bad mood?
+    - Today, when I was stuck in traffic.
+    - Last week, when I was reminded of loved ones who passed away.
+    - Last night, when I had trouble falling asleep.
+- Why is it difficult to maintain a good mood?
+    - Feeling tired or drained after being in a bad mood.
+    - Having persistent, racing thoughts that keep me awake.
+    - Becoming irritable and wanting to isolate myself, which only worsens my mood.
 - What is, if anything, have you done to be in good mood?
-A: I tried to listen to music
-A: I tried to walk a bit near my house
-A: I tried to watch a tv show to think about something else
-- What don't you like about the solution for a good mood that you have?
-A: Sometimes when I listen to music I fell asleep and music is playing whole night
-A: It's hard to find a tv show or film that will improve my mood
-A: If it is evening or weather is not good, it's hard to go for a walk. I feel more stressed walking after 9pm. Rain doesn't imporve my mood when I outside. I prefer looking at window when it's raining, or in times of thunderstorm, rather than walking.
-```
+    - Tried listening to music.
+    - Went for a short walk around my neighborhood.
+    - Watched a TV show to take my mind off things.
+- What are the drawbacks of your current methods for improving your mood?
+    - Sometimes I fall asleep when listening to music, and the music plays all night.
+    - It's hard to find a TV show or movie that actually improves my mood.
+    - It's difficult to go for a walk when the weather is bad or it's late at night. I find walking stressful at night, and rain doesn't help my mood. I prefer looking out the window during thunderstorms instead of going for a walk.
 
 ### DAY 20
-Interesting to see that nobody mentioned they like to look at a static picture or text to improve their mood. But I see people are looking at moving pictures, like tv shows or films to improve mood. I also see some people were using music to improve mood, which also correlates to what I'm trying to do. There were a feedback, that some person forgot to turn off music when he fell asleep, which correlates with my experience when I fell asleep with TV turned on.
+It's interesting to note that no one mentioned looking at static pictures or text to improve their mood. Instead, people preferred to watch moving pictures, such as TV shows or films, or listen to music, which aligns with my own findings. One user even provided feedback about forgetting to turn off the music when falling asleep, which resonates with my own experience of accidentally falling asleep with the TV on.
 
-So I decided to rethink my idea of static text and replace it with something moving. 
-I found a nice gif image of rainy day and a nice relaxing music. I also build a timer for 60 minutes, which automatically stops music. I also moved feedback form, so that it appear in popup and have a button to open and close popup
+Therefore, I decided to reconsider my idea of using static text and instead opted for something more dynamic. I found a nice GIF image of a rainy day and selected a soothing music track. Additionally, I created a timer for 60 minutes, which automatically stops the music. I also moved the feedback form to a pop-up window, with a button to open and close it.
 
 <details>
 <summary>Testing system</summary>
 
 | Requirements| Measurement |
 | ----------- | ----------- |
-| People can see word "Hello" on the page|I see it|
-| People with disabilities can experience word "Hello" on my website| I looked at the page, from my knowleadge it should be ok|
-| My website accesible by anyone in the world| I deployed it and tried myself, looks fine|
-| I need to have feedback from users, how it helps them to feel more welcomed| they give me feedback and I recieve it|
-| I want to know how many people comes to my site every day| I see the number|
-| I need to know how long it takes for a user to load my website| I see a number|
-| I need to know how many user can't load my website| I see number| 
-| Google analytics works on my page| I can see results in google analytics|
-| I have google form on my website and can send feedback| I see feedback in google forms|
-| Website has full width background image| I see image|
-| There is a circular button in the centre of page, which I can use to play and pause the music| I can see and click the button. Music starts and music stops|
-| There is a countdown when I press start. When 0 reached, music stops| I tried it myself with a bit less timeout, works fine|
-| There is a button which opens feedback form and have ability to close it| I tried myself, works fine|
+| Users can view the word 'Hello' on the webpage.|I see it|
+| Users with disabilities can view the word 'Hello' on my website. | After reviewing the page, I believe it meets accessibility requirements.| 
+| I aimed to make my website accessible to anyone in the world. | After deploying it, I tested the website myself and it appears to be working properly.| 
+| I need to receive feedback from users on how my website helps them feel more welcomed.| Google Forms |
+| I also want to track the number of daily visitors to my site.| Google Analytics |
+| It's important for me to know the website loading time for users and to track the number of users who can't load my website.| Google Analytics |
+|The website features a full-width background image that is clearly visible.| I tried it out myself and it seems to be working well. |
+|In the center of the page, there is a circular button that allows me to play or pause the music.| I tried it out myself and it seems to be working well.|
+| When I press the start button, a countdown appears, and the music plays until the countdown reaches zero and then stops.| I tested this with a shorter countdown, and it worked perfectly.|
+| There is a button that opens the feedback form and allows me to close it when I'm finished.| I tried it out myself and it seems to be working well. |
 
 </details>
 
 ### DAY 30
-I finished development and ready to show new version to people. I make one more post on forums and turn on google adwords back again.
-People are visiting website, but I still don't understand whether it help people or no. What should I do? Shall I ask people on forums? Shall I create form? I don't think asking directly how do you like my solution is right way. 
-People are polite, they will tell you what you want to hear, or sometimes impolite, but angry feedback is not always honest feedback. 
-I think I need metrics, if people are spending their time here, it means website helps. It's good that google analytics provide such metrics
+I have completed the development and I am ready to showcase the new version to the public. I have made another post on the forums and re-enabled Google AdWords to attract visitors to the website. However, I am still unsure whether my solution is helping people or not. What should I do? Should I ask people on the forums or create a feedback form? I don't think asking people directly how they like my solution is the right approach. People tend to be polite and tell you what you want to hear, or sometimes they can be impolite and their angry feedback may not always be honest. I believe I need metrics to determine if people are finding the website helpful. It's fortunate that Google Analytics provides such metrics, such as the amount of time people spend on the website.
 
 ### DAY 50
-I need money for this website to live. I selected ads as a way to make money.
+I need to generate revenue from this website to support myself. I have decided to use ads as a means of monetization.
 
 <details>
 <summary>Testing system</summary>
 
 | Requirements| Measurement |
 | ----------- | ----------- |
-| People can see word "Hello" on the page|I see it|
-| People with disabilities can experience word "Hello" on my website| I looked at the page, from my knowleadge it should be ok|
-| My website accesible by anyone in the world| I deployed it and tried myself, looks fine|
-| I need to have feedback from users, how it helps them to feel more welcomed| they give me feedback and I recieve it|
-| I want to know how many people comes to my site every day| I see the number|
-| I need to know how long it takes for a user to load my website| I see a number|
-| I need to know how many user can't load my website| I see number| 
-| Google analytics works on my page| I can see results in google analytics|
-| I have google form on my website and can send feedback| I see feedback in google forms|
-| Website has full width background image| I see image|
-| There is a circular button in the centre of page, which I can use to play and pause the music| I can see and click the button. Music starts and music stops|
-| There is a countdown when I press start. When 0 reached, music stops| I tried it myself with a bit less timeout, works fine|
-| There is a button which opens feedback form and have ability to close it| I tried myself, works fine|
-| There is an ads block which helps me to earn run this site| I can see ads on website and money in my account|
+| Users can view the word 'Hello' on the webpage.|I see it|
+| Users with disabilities can view the word 'Hello' on my website. | After reviewing the page, I believe it meets accessibility requirements.| 
+| I aimed to make my website accessible to anyone in the world. | After deploying it, I tested the website myself and it appears to be working properly.| 
+| I need to receive feedback from users on how my website helps them feel more welcomed.| Google Forms |
+| I also want to track the number of daily visitors to my site.| Google Analytics |
+| It's important for me to know the website loading time for users and to track the number of users who can't load my website.| Google Analytics |
+|The website features a full-width background image that is clearly visible.| I tried it out myself and it seems to be working well. |
+|In the center of the page, there is a circular button that allows me to play or pause the music.| I tried it out myself and it seems to be working well.|
+| When I press the start button, a countdown appears, and the music plays until the countdown reaches zero and then stops.| I tested this with a shorter countdown, and it worked perfectly.|
+| There is a button that opens the feedback form and allows me to close it when I'm finished.| I tried it out myself and it seems to be working well. |
+| There is an ad block that helps me sustain this website | I can see ads on the website and the money accumulating in my account |
 
 </details>
 
 ### DAY 60
-I need to reduce costs, but still maintaining enough traffic to my website
-- I need cheaper traffic to my website. I need traffic from search. I think I can get it with less price than paying for google ads. I've done a bit of googling and find that content creation is a way to get good places in google search.
-- I need to reduce my cloud provider price. I pay for bandwidth, storage, computing resources. Computing is relativly cheap, storage as well, but bandwidth isn't. I think caching image and audio track is a way to reduce price for bandwidth. 
+I need to cut down on costs while still maintaining traffic to my website. Here are some steps I'm considering:
+
+I want to find cheaper ways to drive traffic to my website, and I believe I can achieve this by focusing on search engine optimization. By creating valuable content, I can improve my website's search engine ranking and attract visitors without having to pay for expensive ads.
+
+I also need to reduce my cloud provider expenses, which include costs for bandwidth, storage, and computing resources. Computing and storage are relatively cheap, but bandwidth costs can add up quickly. To address this, I am thinking of implementing caching strategies for images and audio tracks to minimize the amount of bandwidth I use."
 
 <details>
 <summary>Testing system</summary>
 
 | Requirements| Measurement |
 | ----------- | ----------- |
-| People can see word "Hello" on the page|I see it|
-| People with disabilities can experience word "Hello" on my website| I looked at the page, from my knowleadge it should be ok|
-| My website accesible by anyone in the world| I deployed it and tried myself, looks fine|
-| I need to have feedback from users, how it helps them to feel more welcomed| they give me feedback and I recieve it|
-| I want to know how many people comes to my site every day| I see the number|
-| I need to know how long it takes for a user to load my website| I see a number|
-| I need to know how many user can't load my website| I see number| 
-| Google analytics works on my page| I can see results in google analytics|
-| I have google form on my website and can send feedback| I see feedback in google forms|
-| Website has full width background image| I see image|
-| There is a circular button in the centre of page, which I can use to play and pause the music| I can see and click the button. Music starts and music stops|
-| There is a countdown when I press start. When 0 reached, music stops| I tried it myself with a bit less timeout, works fine|
-| There is a button which opens feedback form and have ability to close it| I tried myself, works fine|
-| There is an ads block which helps me to earn run this site| I can see ads on website and money in my account|
-| There are google ads running with cheapest price I can get| I feel it is a good price and I see people comming from google ads|
-| I have traffic from google search| I can see it in google analytics dashboard|
+| Users can view the word 'Hello' on the webpage.|I see it|
+| Users with disabilities can view the word 'Hello' on my website. | After reviewing the page, I believe it meets accessibility requirements.| 
+| I aimed to make my website accessible to anyone in the world. | After deploying it, I tested the website myself and it appears to be working properly.| 
+| I need to receive feedback from users on how my website helps them feel more welcomed.| Google Forms |
+| I also want to track the number of daily visitors to my site.| Google Analytics |
+| It's important for me to know the website loading time for users and to track the number of users who can't load my website.| Google Analytics |
+|The website features a full-width background image that is clearly visible.| I tried it out myself and it seems to be working well. |
+|In the center of the page, there is a circular button that allows me to play or pause the music.| I tried it out myself and it seems to be working well.|
+| When I press the start button, a countdown appears, and the music plays until the countdown reaches zero and then stops.| I tested this with a shorter countdown, and it worked perfectly.|
+| There is a button that opens the feedback form and allows me to close it when I'm finished.| I tried it out myself and it seems to be working well. |
+| There is an ad block that helps me sustain this website | I can see ads on the website and the money accumulating in my account |
+| I am getting traffic from Google search| which I can view in my Google Analytics dashboard.|
 
 </details>
 
 ---
 ## Review
 
-This is latest state of testing system, a list of requirements and measurment solutions
+These are the most recent testing system updates, including a list of requirements and corresponding measurement solutions.
 
 | Requirements| Measurement |
 | ----------- | ----------- |
-| People can see word "Hello" on the page|I see it|
-| People with disabilities can experience word "Hello" on my website| I looked at the page, from my knowleadge it should be ok|
-| My website accesible by anyone in the world| I deployed it and tried myself, looks fine|
-| I need to have feedback from users, how it helps them to feel more welcomed| they give me feedback and I recieve it|
-| I want to know how many people comes to my site every day| I see the number|
-| I need to know how long it takes for a user to load my website| I see a number|
-| I need to know how many user can't load my website| I see number| 
-| Google analytics works on my page| I can see results in google analytics|
-| I have google form on my website and can send feedback| I see feedback in google forms|
-| Website has full width background image| I see image|
-| There is a circular button in the centre of page, which I can use to play and pause the music| I can see and click the button. Music starts and music stops|
-| There is a countdown when I press start. When 0 reached, music stops| I tried it myself with a bit less timeout, works fine|
-| There is a button which opens feedback form and have ability to close it| I tried myself, works fine|
-| There is an ads block which helps me to earn run this site| I can see ads on website and money in my account|
-| There are google ads running with cheapest price I can get| I feel it is a good price and I see people comming from google ads|
-| I have traffic from google search| I can see it in google analytics dashboard|
+| Users can view the word 'Hello' on the webpage.|I see it|
+| Users with disabilities can view the word 'Hello' on my website. | After reviewing the page, I believe it meets accessibility requirements.| 
+| I aimed to make my website accessible to anyone in the world. | After deploying it, I tested the website myself and it appears to be working properly.| 
+| I need to receive feedback from users on how my website helps them feel more welcomed.| Google Forms |
+| I also want to track the number of daily visitors to my site.| Google Analytics |
+| It's important for me to know the website loading time for users and to track the number of users who can't load my website.| Google Analytics |
+|The website features a full-width background image that is clearly visible.| I tried it out myself and it seems to be working well. |
+|In the center of the page, there is a circular button that allows me to play or pause the music.| I tried it out myself and it seems to be working well.|
+| When I press the start button, a countdown appears, and the music plays until the countdown reaches zero and then stops.| I tested this with a shorter countdown, and it worked perfectly.|
+| There is a button that opens the feedback form and allows me to close it when I'm finished.| I tried it out myself and it seems to be working well. |
+| There is an ad block that helps me sustain this website | I can see ads on the website and the money accumulating in my account |
+| I am getting traffic from Google search| which I can view in my Google Analytics dashboard.|
 
-### What do you see here
-- During development process we changed problem we are solving from 'feel welcomed' to 'be in good mood'. Some requirements become obsolite and not relevant anymore
-- Some requirement doesn't have measurement solution, eg. countdown. It was measured, tested once during development and going forward we have no idea about it workability and efficiency
-- Some requirements are measured, but results of measurements doesn't affect the requirements, eg. How long it takes for user to load website. We didn't do any actions based on results.
-- Some requirements are measurement solution for some other requirements. eg. google analytics is a measurement for knowing how many people come to website
+### What's going on here?
+- We've shifted the focus of our development from "feeling welcomed" to "being in a good mood," which means some requirements are no longer relevant.
+- Some requirements lack a measurement solution. For example, we only tested the countdown feature once during development, and we have no way to assess its efficiency going forward.
+- Some requirements have been measured, but the results haven't been used to inform any actions. For example, we know how long it takes for users to load the website, but we haven't done anything to improve the loading time based on this information.
 
-### What went well
-- I did a great job identifying users problem, collecting user feedback.
-    - I set requirements I think will work
-    - I setup measurement solution, feedback form
-    - I reviewed feedback
-    - I changed our requirements
-    - I changed our measurement solutions
+### What was successful
+
+- I effectively identified the users' problem and gathered their feedback.
+- I established requirements that I believed would be effective.
+- I implemented measurement solutions, such as a feedback form.
+- I analyzed the feedback received.
+- I adapted our requirements based on the feedback.
+- I modified our measurement solutions as needed.
 
 ---
-## What is an efficient testing system development lyfecycle
+## An Efficient Lifecycle for Developing a Testing System
 
-1. I set initial requirements, which I think solving a problem
-2. I develop a solution that fits requirements
-3. I develop measurements solution
-4. I review results of measurements
-5. I add new requirements
-6. I delete obsolete requirements
-7. I delete obsolete measurement solution
-8. Go to #2
+- Define initial requirements to solve the problem at hand
+- Develop a solution that fulfills the requirements
+- Create measurement solutions to track progress and performance
+- Review the results of the measurements
+- Add new requirements as needed
+- Eliminate any obsolete requirements
+- Remove any measurement solutions that are no longer relevant
+- Repeat steps 2-7 as necessary."
 
-This flow is important. Let's rewrite it in a programming language
+----
+# In conclusion
 
-```js
-function testSystemDevelopment(){
-    let requirements = SetInitialRequirements()
-    let measurements;
-
-    while(true) {
-        Develop(requirements)
-        measurements = DevelopMeasurementSolution(requirements)
-        let reviewResults = ReviewResultsOfMeasurement(measurements.getResults())
-        let {requirements, prevRequirements} = AddNewRequirements(reviewResults)
-        requirements = DeleteObsoleteRequirements(requirements, prevRequirements)
-        measurements = DeleteObsoleteMeasurementSolutions(requirements, prevRequirements)
-    }
-}
-```
-
-This flow works on different levels
-### Case one: developer
-1. [Set initial requirements] He takes a small part of total requirement. His task is to develop html button with css styles. He sets initial requirements to the following
-- html button with css styles
-    - Button should have full page width on mobile, and fixed with on desktop
-    - Button should be accessible
-2. [Develop] He develops the button
-3. [Develop Measurement Solution] He creates pull request, shows his button to designers and product owners
-4. [Review Results Of Measurement] He listens and write down all what was said in pull request, by designers and product owners
-5. [Add New Requirements] He creates new requirements
-- html button with css styles
-    - Button should have full page width on mobile, and fixed with on desktop
-    - Button should have fixed size on mobile and desktop
-    - Button should be accessible
-6. [Delete Obsolete Requirements] 
-- html button with css styles
-    - Button should have fixed size on mobile and desktop
-    - Button should be accessible
-7. [Delete Obsolete Measurement Solutions] - marks PR as draft and not ready for review
-8. Go to # 2 with new requirements
-
-Usually, it takes 1-2 iteration for a developer to fulfill his requirement. 
-
-### Case two: startup owner
-Look above to the story. 
-
-## To wrap it up
-1. Know the problem you are solving
-2. Develop requirements
-3. Measure how your requirements solves problem. 
-4. Use your measurements to modify your requirements.
-5. Delete obsolete requirements and measurements solutions
-
-### Steps 4 and 5 are essential for efficient testing system
-If you want to have efficient testing system, you must use measurements to modify requirements and delete obsolete requirements and measurement solutions. People skip steps 4 and 5 as sometimes they are the most difficult steps. Your company might have an issue with steps 5 or 4 if you experience the following things:
-- You make reports no one reads, including you
-- You support system no one cares about
-- You create dashboards no one looks at, including you
----
-
-## Roles in a team
-
-1. Business analyst. Sets requirements for software to solve problem, using knowleadge in industry, subject, user feedback
-2. Software manual tester. Gatheres requirements and measure how requirements are met. Usually from functional point of view.
-3. Automation tester/ SDET. Gatheres requirements and Creates automated measurement solutions. Usually from functional and performance point of view
-4. Software Engineer. Develops requirements, measurement solutions, measure how requirements are met. Usually from software point of view.
-5. DevOps. Develops requirements, measurement solutions, measure how requirements are met. Usually from infrastructure point of view. 
-6. Engineering Manager. Sets requirements for software to solve problem. Allocate people and resources required to develop and measure requirement
-
-### Other team structure
-Artifacts:
-1. Testing system. Global to whole company. Here you can find all requirements and requirement owners, pool of requirement managers
-
-Roles:
-1. Owner. Takes requirement and creates subrequirements and measurement solutions for it. Uses industry, subject knowleadge, user feedback. Has power to delete and add subrequirements. Can ask requirement manager to give him more requirement owners if he has more subrequirements he can handle. Requirement owner who has people working on subrequirements has power to dealocate people from subrequirements and remove subrequirement.
-
-2. Manager. Manage testing system and resources(materials and people, sick leaves, absence, anything outside of requirement). Requirement owners can reach out to requirement manager if he thinks that his measures will impact other requirements outside requirement owner's requirement and subrequirements. Requirement manager is not assigned to specific person. Requirement owner can choose from pool of requirement managers who to work with. Requirement manager has power to delete requirements from testing system, outside of requirement owner area. He can allocate resources and people for requirement owners. His goal is to manage requirement owners and their colobaration
-
-3. Expert. Software Expert, Operations Expert, Accesibility Expert, Automated Measurement Expert, Business Domain Expert. People with exceptional knowleadge in some area. Expets can play roles of requirement owner or requirement manager. Other requirement owners can reach out to experts in order to help them to solve the task. If there are a set of tasks, requirement owner can ask requirement manager to make the expert requirement owner for those subtasks
+- Understand the problem you are addressing.
+- Create clear requirements.
+- Establish measurement methods to assess how well the requirements address the problem.
+- Use the results of your measurements to adjust and improve your requirements.
+- Eliminate outdated or unnecessary requirements and measurement approaches."
