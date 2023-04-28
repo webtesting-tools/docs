@@ -32,6 +32,7 @@ description: List of web testing tools
 - [Axe](https://www.deque.com/axe/)
 - [Code sniffer](https://squizlabs.github.io/HTML_CodeSniffer/)
 - [Pa11y](https://pa11y.org/)
+- [Web Accessibility: A Reference to Creating Inclusive Websites](https://stackdiary.com/web-accessibility/)
 
 ### {{ "Guidelines" | section | safe }}
 - [Maintainable CSS](https://maintainablecss.com/)
