@@ -33,6 +33,7 @@ description: List of web testing tools
 - [Code sniffer](https://squizlabs.github.io/HTML_CodeSniffer/)
 - [Pa11y](https://pa11y.org/)
 - [Web Accessibility: A Reference to Creating Inclusive Websites](https://stackdiary.com/web-accessibility/)
+- [NVDA and VoiceOver automation](https://www.guidepup.dev/)
 
 ### {{ "Guidelines" | section | safe }}
 - [Maintainable CSS](https://maintainablecss.com/)
